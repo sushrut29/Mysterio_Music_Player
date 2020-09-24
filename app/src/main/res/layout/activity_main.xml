@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdd835"
+android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/image2"
+        android:id="@+id/img"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Songs:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        android:padding="10dp"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myListView"
+        android:divider="@color/colorPrimaryDark"
+        android:paddingLeft="0dp"
+        android:layout_below="@id/img"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/colorAccent"
+
+
+    />
+
+
+
+
+</LinearLayout>
